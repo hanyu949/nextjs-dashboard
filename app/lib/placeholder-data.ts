@@ -47,7 +47,7 @@ const customers = [
     image_url: '/customers/balazs-orban.png',
   },
 ];
-
+// 发票表
 const invoices = [
   {
     customer_id: customers[0].id,
@@ -128,7 +128,7 @@ const invoices = [
     date: '2022-06-05',
   },
 ];
-
+// 收入表
 const revenue = [
   { month: 'Jan', revenue: 2000 },
   { month: 'Feb', revenue: 1800 },
